@@ -1960,7 +1960,7 @@ print("Pipeline steps:\n{}".format(pipe.steps))
 components = pipe.named_steps["feature_scaling"]
 print("components: {}".format(components))
 classifier = pcv.best_estimator_.named_steps["classifier"]
-print("Keras DNN classifier step:\n{}".format(classifier))
+print("GradientBoostingClassifier classifier step:\n{}".format(classifier))
 print("Best cross-validation accuracy: {:.2f}".format(pcv.best_score_)) 
 print("Test set score: {:.2f}".format(pcv.score(X_test, y_test))) 
 print("Best parameters: {}".format(pcv.best_params_))
@@ -2008,7 +2008,7 @@ print("Pipeline steps:\n{}".format(pipe.steps))
 components = pipe.named_steps["feature_scaling"]
 print("components: {}".format(components))
 classifier = pcv.best_estimator_.named_steps["classifier"]
-print("Keras DNN classifier step:\n{}".format(classifier))
+print("GradientBoostingClassifier classifier step:\n{}".format(classifier))
 print("Best cross-validation accuracy: {:.2f}".format(pcv.best_score_)) 
 print("Test set score: {:.2f}".format(pcv.score(X_test, y_test))) 
 print("Best parameters: {}".format(pcv.best_params_))
@@ -2056,7 +2056,7 @@ print("Pipeline steps:\n{}".format(pipe.steps))
 components = pipe.named_steps["feature_scaling"]
 print("components: {}".format(components))
 classifier = pcv.best_estimator_.named_steps["classifier"]
-print("Keras DNN classifier step:\n{}".format(classifier))
+print("GradientBoostingClassifier classifier step:\n{}".format(classifier))
 print("Best cross-validation accuracy: {:.2f}".format(pcv.best_score_)) 
 print("Test set score: {:.2f}".format(pcv.score(X_test, y_test))) 
 print("Best parameters: {}".format(pcv.best_params_))
@@ -2104,7 +2104,7 @@ print("Pipeline steps:\n{}".format(pipe.steps))
 components = pipe.named_steps["feature_scaling"]
 print("components: {}".format(components))
 classifier = pcv.best_estimator_.named_steps["classifier"]
-print("Keras DNN classifier step:\n{}".format(classifier))
+print("GradientBoostingClassifier classifier step:\n{}".format(classifier))
 print("Best cross-validation accuracy: {:.2f}".format(pcv.best_score_)) 
 print("Test set score: {:.2f}".format(pcv.score(X_test, y_test))) 
 print("Best parameters: {}".format(pcv.best_params_))
@@ -2153,7 +2153,7 @@ print("Pipeline steps:\n{}".format(pipe.steps))
 components = pipe.named_steps["feature_scaling"]
 print("components: {}".format(components))
 classifier = pcv.best_estimator_.named_steps["classifier"]
-print("Keras DNN classifier step:\n{}".format(classifier))
+print("GradientBoostingClassifier classifier step:\n{}".format(classifier))
 print("Best cross-validation accuracy: {:.2f}".format(pcv.best_score_)) 
 print("Test set score: {:.2f}".format(pcv.score(X_test, y_test))) 
 print("Best parameters: {}".format(pcv.best_params_))
